@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB6FA469242BAB3A00E79A4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FA468242BAB3A00E79A4C /* AppDelegate.swift */; };
+		FB6FA46B242BAB3A00E79A4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FA46A242BAB3A00E79A4C /* SceneDelegate.swift */; };
+		FB6FA46D242BAB3A00E79A4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FA46C242BAB3A00E79A4C /* ViewController.swift */; };
+		FB6FA470242BAB3A00E79A4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6FA46E242BAB3A00E79A4C /* Main.storyboard */; };
+		FB6FA472242BAB3D00E79A4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6FA471242BAB3D00E79A4C /* Assets.xcassets */; };
+		FB6FA475242BAB3D00E79A4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6FA473242BAB3D00E79A4C /* LaunchScreen.storyboard */; };
+		FB6FA480242BAB3D00E79A4C /* kiwariAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FA47F242BAB3D00E79A4C /* kiwariAppsTests.swift */; };
+		FB6FA48B242BAB3D00E79A4C /* kiwariAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FA48A242BAB3D00E79A4C /* kiwariAppsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB6FA47C242BAB3D00E79A4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB6FA45D242BAB3A00E79A4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB6FA464242BAB3A00E79A4C;
+			remoteInfo = kiwariApps;
+		};
+		FB6FA487242BAB3D00E79A4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB6FA45D242BAB3A00E79A4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB6FA464242BAB3A00E79A4C;
+			remoteInfo = kiwariApps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB6FA465242BAB3A00E79A4C /* kiwariApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kiwariApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6FA468242BAB3A00E79A4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB6FA46A242BAB3A00E79A4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB6FA46C242BAB3A00E79A4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB6FA46F242BAB3A00E79A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB6FA471242BAB3D00E79A4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB6FA474242BAB3D00E79A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB6FA476242BAB3D00E79A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB6FA47B242BAB3D00E79A4C /* kiwariAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kiwariAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6FA47F242BAB3D00E79A4C /* kiwariAppsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kiwariAppsTests.swift; sourceTree = "<group>"; };
+		FB6FA481242BAB3D00E79A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB6FA486242BAB3D00E79A4C /* kiwariAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kiwariAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB6FA48A242BAB3D00E79A4C /* kiwariAppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kiwariAppsUITests.swift; sourceTree = "<group>"; };
+		FB6FA48C242BAB3D00E79A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB6FA462242BAB3A00E79A4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6FA478242BAB3D00E79A4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6FA483242BAB3D00E79A4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB6FA45C242BAB3A00E79A4C = {
+			isa = PBXGroup;
+			children = (
+				FB6FA467242BAB3A00E79A4C /* kiwariApps */,
+				FB6FA47E242BAB3D00E79A4C /* kiwariAppsTests */,
+				FB6FA489242BAB3D00E79A4C /* kiwariAppsUITests */,
+				FB6FA466242BAB3A00E79A4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB6FA466242BAB3A00E79A4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB6FA465242BAB3A00E79A4C /* kiwariApps.app */,
+				FB6FA47B242BAB3D00E79A4C /* kiwariAppsTests.xctest */,
+				FB6FA486242BAB3D00E79A4C /* kiwariAppsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB6FA467242BAB3A00E79A4C /* kiwariApps */ = {
+			isa = PBXGroup;
+			children = (
+				FB6FA468242BAB3A00E79A4C /* AppDelegate.swift */,
+				FB6FA46A242BAB3A00E79A4C /* SceneDelegate.swift */,
+				FB6FA46C242BAB3A00E79A4C /* ViewController.swift */,
+				FB6FA46E242BAB3A00E79A4C /* Main.storyboard */,
+				FB6FA471242BAB3D00E79A4C /* Assets.xcassets */,
+				FB6FA473242BAB3D00E79A4C /* LaunchScreen.storyboard */,
+				FB6FA476242BAB3D00E79A4C /* Info.plist */,
+			);
+			path = kiwariApps;
+			sourceTree = "<group>";
+		};
+		FB6FA47E242BAB3D00E79A4C /* kiwariAppsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB6FA47F242BAB3D00E79A4C /* kiwariAppsTests.swift */,
+				FB6FA481242BAB3D00E79A4C /* Info.plist */,
+			);
+			path = kiwariAppsTests;
+			sourceTree = "<group>";
+		};
+		FB6FA489242BAB3D00E79A4C /* kiwariAppsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB6FA48A242BAB3D00E79A4C /* kiwariAppsUITests.swift */,
+				FB6FA48C242BAB3D00E79A4C /* Info.plist */,
+			);
+			path = kiwariAppsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB6FA464242BAB3A00E79A4C /* kiwariApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6FA48F242BAB3D00E79A4C /* Build configuration list for PBXNativeTarget "kiwariApps" */;
+			buildPhases = (
+				FB6FA461242BAB3A00E79A4C /* Sources */,
+				FB6FA462242BAB3A00E79A4C /* Frameworks */,
+				FB6FA463242BAB3A00E79A4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kiwariApps;
+			productName = kiwariApps;
+			productReference = FB6FA465242BAB3A00E79A4C /* kiwariApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB6FA47A242BAB3D00E79A4C /* kiwariAppsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6FA492242BAB3D00E79A4C /* Build configuration list for PBXNativeTarget "kiwariAppsTests" */;
+			buildPhases = (
+				FB6FA477242BAB3D00E79A4C /* Sources */,
+				FB6FA478242BAB3D00E79A4C /* Frameworks */,
+				FB6FA479242BAB3D00E79A4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB6FA47D242BAB3D00E79A4C /* PBXTargetDependency */,
+			);
+			name = kiwariAppsTests;
+			productName = kiwariAppsTests;
+			productReference = FB6FA47B242BAB3D00E79A4C /* kiwariAppsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB6FA485242BAB3D00E79A4C /* kiwariAppsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6FA495242BAB3D00E79A4C /* Build configuration list for PBXNativeTarget "kiwariAppsUITests" */;
+			buildPhases = (
+				FB6FA482242BAB3D00E79A4C /* Sources */,
+				FB6FA483242BAB3D00E79A4C /* Frameworks */,
+				FB6FA484242BAB3D00E79A4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB6FA488242BAB3D00E79A4C /* PBXTargetDependency */,
+			);
+			name = kiwariAppsUITests;
+			productName = kiwariAppsUITests;
+			productReference = FB6FA486242BAB3D00E79A4C /* kiwariAppsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB6FA45D242BAB3A00E79A4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Hamzhya Salsatinnov Hairy";
+				TargetAttributes = {
+					FB6FA464242BAB3A00E79A4C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FB6FA47A242BAB3D00E79A4C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FB6FA464242BAB3A00E79A4C;
+					};
+					FB6FA485242BAB3D00E79A4C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FB6FA464242BAB3A00E79A4C;
+					};
+				};
+			};
+			buildConfigurationList = FB6FA460242BAB3A00E79A4C /* Build configuration list for PBXProject "kiwariApps" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB6FA45C242BAB3A00E79A4C;
+			productRefGroup = FB6FA466242BAB3A00E79A4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB6FA464242BAB3A00E79A4C /* kiwariApps */,
+				FB6FA47A242BAB3D00E79A4C /* kiwariAppsTests */,
+				FB6FA485242BAB3D00E79A4C /* kiwariAppsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB6FA463242BAB3A00E79A4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6FA475242BAB3D00E79A4C /* LaunchScreen.storyboard in Resources */,
+				FB6FA472242BAB3D00E79A4C /* Assets.xcassets in Resources */,
+				FB6FA470242BAB3A00E79A4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6FA479242BAB3D00E79A4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6FA484242BAB3D00E79A4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB6FA461242BAB3A00E79A4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6FA46D242BAB3A00E79A4C /* ViewController.swift in Sources */,
+				FB6FA469242BAB3A00E79A4C /* AppDelegate.swift in Sources */,
+				FB6FA46B242BAB3A00E79A4C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6FA477242BAB3D00E79A4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6FA480242BAB3D00E79A4C /* kiwariAppsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6FA482242BAB3D00E79A4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6FA48B242BAB3D00E79A4C /* kiwariAppsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB6FA47D242BAB3D00E79A4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB6FA464242BAB3A00E79A4C /* kiwariApps */;
+			targetProxy = FB6FA47C242BAB3D00E79A4C /* PBXContainerItemProxy */;
+		};
+		FB6FA488242BAB3D00E79A4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB6FA464242BAB3A00E79A4C /* kiwariApps */;
+			targetProxy = FB6FA487242BAB3D00E79A4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB6FA46E242BAB3A00E79A4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB6FA46F242BAB3A00E79A4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB6FA473242BAB3D00E79A4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB6FA474242BAB3D00E79A4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB6FA48D242BAB3D00E79A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB6FA48E242BAB3D00E79A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB6FA490242BAB3D00E79A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45H86B5NLP;
+				INFOPLIST_FILE = kiwariApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamzhya.kiwariApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB6FA491242BAB3D00E79A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45H86B5NLP;
+				INFOPLIST_FILE = kiwariApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamzhya.kiwariApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB6FA493242BAB3D00E79A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45H86B5NLP;
+				INFOPLIST_FILE = kiwariAppsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamzhya.kiwariAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kiwariApps.app/kiwariApps";
+			};
+			name = Debug;
+		};
+		FB6FA494242BAB3D00E79A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45H86B5NLP;
+				INFOPLIST_FILE = kiwariAppsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamzhya.kiwariAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kiwariApps.app/kiwariApps";
+			};
+			name = Release;
+		};
+		FB6FA496242BAB3D00E79A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45H86B5NLP;
+				INFOPLIST_FILE = kiwariAppsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamzhya.kiwariAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kiwariApps;
+			};
+			name = Debug;
+		};
+		FB6FA497242BAB3D00E79A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45H86B5NLP;
+				INFOPLIST_FILE = kiwariAppsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamzhya.kiwariAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kiwariApps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB6FA460242BAB3A00E79A4C /* Build configuration list for PBXProject "kiwariApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6FA48D242BAB3D00E79A4C /* Debug */,
+				FB6FA48E242BAB3D00E79A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB6FA48F242BAB3D00E79A4C /* Build configuration list for PBXNativeTarget "kiwariApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6FA490242BAB3D00E79A4C /* Debug */,
+				FB6FA491242BAB3D00E79A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB6FA492242BAB3D00E79A4C /* Build configuration list for PBXNativeTarget "kiwariAppsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6FA493242BAB3D00E79A4C /* Debug */,
+				FB6FA494242BAB3D00E79A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB6FA495242BAB3D00E79A4C /* Build configuration list for PBXNativeTarget "kiwariAppsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6FA496242BAB3D00E79A4C /* Debug */,
+				FB6FA497242BAB3D00E79A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB6FA45D242BAB3A00E79A4C /* Project object */;
+}
